@@ -1,32 +1,26 @@
 import React from 'react'
-import './Header.css'
+import { Container, Logo, Menu, Nav, Title } from './style'
 
 const Header = () => {
   return (
-    <header className="container">
-      <nav className="nav">
-        <a href="/" className="logo">
-          &lt;FRONT&frasl;&gt;
-        </a>
-        <div className="menu">
+    <Container>
+      <Nav>
+        <Logo href="/">&lt;FRONT&frasl;&gt;</Logo>
+        <Menu>
           <li>
-            <a href="/" className="title">
-              Artigos
-            </a>
+            <Title href="/">Artigos</Title>
           </li>
           <li>
-            <a href="/" className="title">
+            <Title href="/" className="title">
               Início
-            </a>
+            </Title>
           </li>
           <li>
-            <a href="/" className="title">
-              Sobre Mim
-            </a>
+            <Title>Sobre Mim</Title>
           </li>
-        </div>
-      </nav>
-    </header>
+        </Menu>
+      </Nav>
+    </Container>
   )
 }
 
