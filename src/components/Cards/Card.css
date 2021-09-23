@@ -42,6 +42,8 @@ h2 {
   margin: 1rem;
 }
 
+
+
  @media (min-width: 768px){
    .custom-card{
      width: 900px;
