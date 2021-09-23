@@ -1,5 +1,4 @@
 
-
 h2:hover {
   color: #0776a1;
   cursor: pointer;
@@ -10,6 +9,9 @@ h2 {
   color: #fff;
 }
 
+.card-text{
+  margin: 2rem;
+}
 
 .cards  {
   display: flex; 
@@ -42,13 +44,13 @@ h2 {
 
  @media (min-width: 768px){
    .custom-card{
-     width: 600px;
+     width: 900px;
    }
  }
 
  @media (min-width: 1024px){
    .cards{
-     width: 1500px;
+     width: 100%;
      flex-wrap: wrap;
      flex-direction: row;
      gap: 5rem

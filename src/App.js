@@ -1,14 +1,16 @@
 import Cards from './components/Cards/Card'
 import Header from './components/Header/Header'
 import NewBlog from './components/NewBlog/NewBlog'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <NewBlog />
       <Cards />
-    </div>
+      <Footer />
+    </>
   )
 }
 
