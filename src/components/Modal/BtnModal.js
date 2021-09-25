@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Form from '../Form/Form'
 import Modal from './Modal'
 
-const BtnModal = () => {
+const BtnModal = ({ addPost }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -12,7 +12,7 @@ const BtnModal = () => {
       </button>
       {isOpen ? (
         <Modal onClose={() => setIsOpen(false)}>
-          <Form />
+          <Form setIsOpen={setIsOpen} addPost={addPost} />
         </Modal>
       ) : null}
     </div>
