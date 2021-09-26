@@ -1,13 +1,6 @@
 import React, { useState } from 'react'
 import './Form.css'
 
-/*const initialValue = {
-  title: '',
-  subtitle: '',
-  autor: '',
-  text: ''
-}*/
-
 const Form = ({ addPost, setIsOpen }) => {
   const [titulo, setTitulo] = useState('')
   const [descricao, setDescricao] = useState('')
