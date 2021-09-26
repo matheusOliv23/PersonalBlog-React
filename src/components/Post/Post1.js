@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Post1 = ({ conteudo }) => {
+const Post1 = ({ conteudo, excluirPost }) => {
   const [show, setShow] = useState(false)
 
   return (
@@ -13,7 +13,10 @@ const Post1 = ({ conteudo }) => {
           <div>Publicado em: 25/09/2021 </div>
           <div>{String(conteudo.autor)}</div>
           <div>{show && String(conteudo.texto)}</div>
-          <button onClick={() => setShow('')} className="btn-delete">
+          <button
+            onClick={() => excluirPost(conteudo.id)}
+            className="btn-delete"
+          >
             Deletar Artigo
           </button>
         </div>
