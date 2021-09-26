@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PersonalBlog-React/static/css/main.c2ef660e.chunk.css",
+    "main.js": "/PersonalBlog-React/static/js/main.a08f9c9b.chunk.js",
+    "main.js.map": "/PersonalBlog-React/static/js/main.a08f9c9b.chunk.js.map",
+    "runtime-main.js": "/PersonalBlog-React/static/js/runtime-main.a619a78f.js",
+    "runtime-main.js.map": "/PersonalBlog-React/static/js/runtime-main.a619a78f.js.map",
+    "static/js/2.3b5e0b3b.chunk.js": "/PersonalBlog-React/static/js/2.3b5e0b3b.chunk.js",
+    "static/js/2.3b5e0b3b.chunk.js.map": "/PersonalBlog-React/static/js/2.3b5e0b3b.chunk.js.map",
+    "index.html": "/PersonalBlog-React/index.html",
+    "static/css/main.c2ef660e.chunk.css.map": "/PersonalBlog-React/static/css/main.c2ef660e.chunk.css.map",
+    "static/js/2.3b5e0b3b.chunk.js.LICENSE.txt": "/PersonalBlog-React/static/js/2.3b5e0b3b.chunk.js.LICENSE.txt",
+    "static/media/Card.css": "/PersonalBlog-React/static/media/sasithon-prehofer-pixabay.7d729654.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a619a78f.js",
+    "static/js/2.3b5e0b3b.chunk.js",
+    "static/css/main.c2ef660e.chunk.css",
+    "static/js/main.a08f9c9b.chunk.js"
+  ]
+}
