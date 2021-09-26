@@ -4,6 +4,7 @@ import Card3 from './components/Cards/Card3'
 import Card4 from './components/Cards/Card4'
 
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 import { useState } from 'react'
 
@@ -15,25 +16,33 @@ import BtnModal from './components/Modal/BtnModal'
 function App() {
   const [cards, setCards] = useState([
     {
+      id: 1,
+      titulo: 'Métodos de Array: Filter',
+      descricao: 'Texto',
+      autor: 'Eduardo',
+      data: '25/09/2021',
+      texto: 'teste'
+    }
+  ])
+  /* {
       titulo: 'Por que escolhi JavaScript',
+      descricao: 'Texto',
       autor: 'Matheus',
-      data: '25/09/2021'
+      data: '25/09/2021',
+      texto: 'texto'
     },
     {
       titulo: 'Métodos de Array: Filter',
+      descricao: 'Texto',
       autor: 'Eduardo',
       data: '25/09/2021'
     },
     { titulo: 'Métodos de Array: Map', autor: 'Amanda', data: '25/09/2021' },
     { titulo: 'Métodos de Array: Reduce', autor: 'Marcos', data: '25/09/2021' }
-  ])
-
-  const post1 = 'Meu texto'
-  const post2 = 'Meu segundo texto'
-  const [posts, setPosts] = useState([post1, post2])
+  ])*/
 
   const inserirNovoPost = novoPost => {
-    const novoStateDePosts = [...posts, novoPost]
+    const novoStateDePosts = [...cards, novoPost]
     console.log('inserirNovoPost', novoStateDePosts)
     setCards(novoStateDePosts)
   }
@@ -45,7 +54,9 @@ function App() {
       {cards.map(card => {
         return <Post1 conteudo={card} />
       })}
-      <Post2 />
+      <Card2 />
+      <Card3 />
+      <Footer />
     </>
   )
 }
